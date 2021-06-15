@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\YashKumarAmrutiya_COMP254_Assignment04"/>
+			<item value="C:\Users\car13\Desktop\A-4_DS_AshishPatadiya\A-4_DS_AshishPatadiya"/>
+			<item value="E:\Data Structure\YashKumarAmrutiya_COMP254_Assignment03"/>
+			<item value="E:\Data Structure\YashKumarAmrutiya_COMP254_Assignment02"/>
+			<item value="C:\Users\car13\Downloads\AmrutiyaYashkumar_COMP228_009_Lab5\AmrutiyaYashkumar_COMP228_009_Lab5"/>
+			<item value="C:\Users\car13\Downloads\AmrutiyaYashkumar_COMP228_009_Lab5"/>
+			<item value="D:\Holidays\Patadiya_Ashish_COMP288_009_Lab-4\Patadiya_Ashish_COMP288_009_Lab-4"/>
+			<item value="D:\JavaFXFirstDemo (2)"/>
+			<item value="D:\AksheshkumarChaudhari_COMP228_009_Lab4"/>
+			<item value="D:\Patadiya_Ashish_COMP288_009_Lab-4"/>
+			<item value="D:\College\SEM-1\JAVA\JavaFXFirstDemo"/>
+			<item value="C:\Users\car13\Downloads\ShruthiThakur_COMP228_009_Lab4"/>
+			<item value="C:\Users\car13\Desktop\Shah_Priyank_COMP228_009_Lab4"/>
+			<item value="D:\College\SEM-1\JAVA\AmrutiyaYashkumar_COMP228_009_Lab4"/>
+			<item value="D:\College\SEM-1\JAVA\Testing_Database_Connection\src"/>
+			<item value="C:\Users\car13\Desktop\AmrutiyaYashkumar_COMP228_009_Lab2\AmrutiyaYashkumar_COMP228_009_Lab2"/>
+			<item value="D:\College\SEM-1\JAVA\ShruthiThakur_COMP228_009_Lab1"/>
+			<item value="D:\College\SEM-1\JAVA\Java-1-Assignment"/>
+			<item value="D:\College\SEM-1\JAVA\Assignment-1\src"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\College\SEM-1\JAVA\Others\ShruthiThakur_COMP228_009_Lab1"/>
+			<item value="D:\College\SEM-1\JAVA\AksheshkumarChaudhariCOMP228_009_Lab1"/>
+			<item value="D:\College\SEM-1\JAVA\Java-1-Assignment"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.fx.ide.jdt.ui.javafx"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.fx.ide"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="617"/>
+		<item key="DIALOG_Y_ORIGIN" value="274"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

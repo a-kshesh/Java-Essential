@@ -1,0 +1,40 @@
+package DoublyLinkedList;
+
+public class OperationLinkedList {
+	private Node1 head;
+	public void insertData(int data) {
+		Node1 node1 = new Node1(data);
+		node1.setNextNode(this.head);
+		if(this.head = null) {
+			System.out.println("asas");
+			this.head.setPrevNode(node1);
+		}
+		this.head = node1;
+	}
+	public void Show() {
+		Node1 node = head;
+		while(node.Next!=null) {
+			System.out.print(node.Data);
+			node = node.Next;
+		}
+		System.out.print(node.Data);
+	}
+	
+	public static void MergeLinkedList(OperationLinkedList list1, OperationLinkedList list2) {
+		OperationLinkedList finalList = list1;
+		Node1 curr = finalList.head;
+		while(curr.Next != null) {
+			curr = curr.Next;
+		}
+		curr.Next = list2.head;
+		list2.head.Prev = curr;
+		
+		Node1 node = finalList.head;
+		while(node.Next!=null) {
+			System.out.println(node.Data);
+			node = node.Next;
+		}
+		System.out.println(node.Data);
+		}
+
+}

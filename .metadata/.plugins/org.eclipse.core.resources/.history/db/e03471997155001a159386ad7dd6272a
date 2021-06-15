@@ -1,0 +1,40 @@
+package exercise2;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Queue q1 = new Queue();
+		q1.enqueue(1);
+		q1.enqueue(2);
+		q1.enqueue(3);
+		q1.enqueue(4);
+		q1.enqueue(5);
+		//System.out.println(queue.First.Value);
+		//queue.printQueue();
+		Queue q2 = new Queue();
+		q2.enqueue(6);
+		q2.enqueue(7);
+		q2.enqueue(8);
+		q2.enqueue(9);
+		
+		concatenate(q1,q2);
+
+	}
+	
+	public static void concatenate(Queue q1, Queue q2) {
+		Queue list = new Queue();
+		while(q1.First!=null) {
+			list.enqueue(q1.First.Value);
+			q1.First = q1.First.Next;
+		}
+		while(q2.First!=null) {
+			list.enqueue(q2.First.Value);
+			q2.First = q2.First.Next;
+			//System.out.println(q2.First.Next);
+		}
+		System.out.println(list.First.Value);
+		System.out.println(list.Last.Value);
+	}
+
+}

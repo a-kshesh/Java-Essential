@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;application.FxDocumentController&apos; to &apos;MainController&apos;&#x0D;&#x0A;- Original project: &apos;JavaFXFirstDemo&apos;&#x0D;&#x0A;- Original element: &apos;application.FxDocumentController&apos;&#x0D;&#x0A;- Renamed element: &apos;application.MainController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FxDocumentController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;application{FxDocumentController.java[FxDocumentController" matchStrategy="1" name="MainController" qualified="false" references="true" similarDeclarations="false" stamp="1572705418247" textual="false" version="1.0"/>
+</session>

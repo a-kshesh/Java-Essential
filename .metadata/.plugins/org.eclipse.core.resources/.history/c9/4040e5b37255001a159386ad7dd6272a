@@ -1,0 +1,28 @@
+package exercise2;
+
+public class Driver {
+	public static void main(String args[]) {
+		stack s = new stack(10);
+		s.push(10);
+		s.push(20);
+		s.push(30);
+		System.out.println(s.pop() + " Popped from stack");
+		stack t = new stack(10);
+		t.push(40);
+		t.push(50);
+		t.push(60);
+		t.push(70);
+		s.display();
+		transfer(s, t);
+		t.display();
+
+	}
+
+	public static void transfer(stack s, stack t) {
+		while (s.top >= 0) {
+
+			t.push(s.pop());
+
+		}
+	}
+}

@@ -1,0 +1,21 @@
+package SinglyLinkedList;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CalcLinkedList calcLinkedList = new CalcLinkedList();
+		calcLinkedList.Insert(3);
+		calcLinkedList.Insert(4);
+		calcLinkedList.Insert(5);
+		calcLinkedList.Insert(6);
+		calcLinkedList.Insert(7);
+		calcLinkedList.Insert(8);
+		
+		calcLinkedList.Show();
+		calcLinkedList.Swap(5, 7);
+		calcLinkedList.Show();
+
+	}
+
+}

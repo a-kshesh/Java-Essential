@@ -1,0 +1,75 @@
+package SinglyLinkedList;
+
+public class CalcLinkedList {
+	Node head;
+	Node node1;
+	Node node2;
+	Node node3;
+	Node node4;
+	Node node5;
+	
+	public void Swap(int value1, int value2) {
+		if(head == null) {
+			head = new Node();
+			return;
+		}
+		if(value1 == value2) {
+			System.out.println("Both Value are Same...");
+			return;
+		}
+		
+		Node curr = head;
+		while(curr.Next != null) {
+			System.out.println("sdsd");
+			if(curr.Next.Data == value1) {
+				System.out.println("prev");
+				node1 = curr; 
+			}
+			if(curr.Data == value1) {
+				System.out.println("2-3");
+				node2 = curr;
+				node3 = curr.Next;
+			}
+			if(curr.Data == value2) {
+				System.out.println("4-5");
+				node4 = curr;
+				node5 = curr.Next;
+			}
+			curr = curr.Next;
+						
+		}
+		
+		node1.Next = node4;
+		node2.Next = node5;
+		node3.Next = node2;
+		node4.Next = node3;
+		
+	}
+	
+	public void Insert(int data) {
+		Node node = new Node();
+		node.Data = data;
+		node.Next = null;
+		if(head == null) {
+			head = node;
+		}
+		else {
+			Node n = head;
+			while(n.Next!=null) {
+				n = n.Next;
+			}
+			n.Next = node;
+		}
+	}
+	
+	public void Show() {
+		Node node = head;
+		while(node.Next!=null) {
+			System.out.print(node.Data);
+			node = node.Next;
+		}
+		System.out.print(node.Data);
+	}
+	
+
+}

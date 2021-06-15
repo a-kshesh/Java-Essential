@@ -1,0 +1,25 @@
+
+package SinglyLinkedList;
+
+public class IntNode {
+	public int Data;
+	public Node Next;
+	
+	public IntNode(int data) {
+		this.Data = data;
+	}
+	public IntNode(int data, Node next) {
+		this.Data = data;
+		this.Next = next;
+	}
+	
+	public IntNode() {
+		
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return (Integer.toString(Data));
+	}
+
+}

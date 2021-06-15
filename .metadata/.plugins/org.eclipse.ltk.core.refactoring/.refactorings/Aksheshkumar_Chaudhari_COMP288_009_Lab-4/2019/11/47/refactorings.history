@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;javaFxProgram&apos; to &apos;Chaudhari_Aksheshkumar_COMP288_009_Lab4/src/application&apos;&#x0D;&#x0A;- Original project: &apos;Aksheshkumar_Chaudhari_COMP288_009_Lab-4&apos;&#x0D;&#x0A;- Destination element: &apos;Chaudhari_Aksheshkumar_COMP288_009_Lab4/src/application&apos;&#x0D;&#x0A;- Original element: &apos;Aksheshkumar_Chaudhari_COMP288_009_Lab-4/src/javaFxProgram&apos;" description="Copy package" destination="=Chaudhari_Aksheshkumar_COMP288_009_Lab4/src&lt;application" element1="/src&lt;javaFxProgram" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1574048068219" version="1.0"/>
+</session>
